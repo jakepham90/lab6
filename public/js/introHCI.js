@@ -47,7 +47,7 @@ function addProjectDetails(e) {
   // get rid of 'project' from the front of the id 'project3'
   var idValue = targetID.substr('project'.length);
 
-  var targetURL = "/project/" +idValue);
+  var targetURL = "/project/" + idValue;
 
   $.get(targetURL, callBackFn); 
 
@@ -70,4 +70,4 @@ function colorCallBack (result) {
   $('h1, h2, h3, h4, h5, h5').css('color', colors[2]);
   $('p').css('color', colors[3]);
   $('.project img').css('opacity', .75);
-}'
+}
