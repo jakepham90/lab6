@@ -1,0 +1,52 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'node.io' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/jakepham/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/jakepham/Workspace/INTROHCI/lab6/package.json
+verbose loadDefaults IntroHCI@0.0.1
+verbose caching /home/jakepham/Workspace/INTROHCI/lab6/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@3.8.4
+verbose caching /home/jakepham/Workspace/INTROHCI/lab6/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@1.3.23
+verbose caching /home/jakepham/Workspace/INTROHCI/lab6/node_modules/express/package.json
+verbose loadDefaults express@3.4.8
+verbose caching /home/jakepham/Workspace/INTROHCI/lab6/node_modules/express3-handlebars/package.json
+verbose loadDefaults express3-handlebars@0.5.0
+verbose from cache /home/jakepham/Workspace/INTROHCI/lab6/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'node.io', null ]
+silly cache add: name, spec, args [ undefined, 'node.io', [ 'node.io', null ] ]
+verbose parsed url { pathname: 'node.io', path: 'node.io', href: 'node.io' }
+verbose addNamed [ 'node.io', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'node.io', '', false ]
+verbose raw, before any munging node.io
+verbose url resolving [ 'https://registry.npmjs.org/', './node.io' ]
+verbose url resolved https://registry.npmjs.org/node.io
+http GET https://registry.npmjs.org/node.io
+ERR! Error: failed to fetch from registry: node.io
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1261:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/jakepham/Workspace/INTROHCI/lab6/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.8.0-35-generic
+ERR! command "node" "/usr/bin/npm" "install" "node.io"
+ERR! cwd /home/jakepham/Workspace/INTROHCI/lab6
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: node.io
+verbose exit [ 1, true ]
